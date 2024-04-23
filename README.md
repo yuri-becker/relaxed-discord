@@ -7,7 +7,6 @@
 <h1 align="center"><strong>Relaxed Discord</strong></h1>
 
 <p align="center"> 
-    🏗️README IS STILL WIP 🏗️<br/>
     Discord theme providing some adjustments to make it less cluttered.<br/>
     Use with Discord mods like <a href="https://github.com/BetterDiscord/BetterDiscord">BetterDiscord</a> or <a href="https://github.com/Vendicated/Vencord">Vencord</a>.
 </div>
@@ -42,9 +41,10 @@ https://yuri-becker.github.io/relaxed-discord/RelaxedDiscord.theme.css
 
 ### BetterDiscord
 
-Download <a href="https://yuri-becker.github.io/relaxed-discord/RelaxedDiscord.theme.css" download>the theme</a> (Right Click → Save Link as...) and put it in your Themes folder. 
-
-*More detailed instructions will follow.*
+1. Download <a href="https://yuri-becker.github.io/relaxed-discord/RelaxedDiscord.theme.css" download>the theme</a> (Right Click → Save Link as...).
+2. Go to `Settings` → `BetterDiscord > Themes` and open your theme folder using the folder icon on the top left.
+3. Move `RelaxedDiscord.theme.css` to the theme folder.
+4. After Relaxed Discord pops up, enable it using the toggle switch on the right.
 
 
 ### Usage with other themes
@@ -55,7 +55,6 @@ To make sure that the tweaks in this theme are not overridden by your "main" the
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## Chat background
 
 This theme supports setting a background for chats. If you don't want a background, just skip this.
@@ -65,6 +64,8 @@ First upload the image somewhere (I recommended just posting it in a private Dis
 Then you need to open your QuickCSS/<whatever it is called on BD>.
 
 On **Vencord**, go to `Settings` → `Vencord > Themes` → `Load Themes` → `Edit QuickCSS`
+
+On **BetterDiscord**, go to `Settings` → `BetterDiscord > Custom CSS` (make sure to click the save icon after you've finished your edits).
 
 Having this opened, set the image url like this:
 
