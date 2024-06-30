@@ -4,7 +4,7 @@
  * @authorLink https://github.com/yuri-becker
  * @description A few adjustments to make Discord less cluttered.
  * @source https://github.com/yuri-becker/relaxed-discord
- * @version 1.0.0
+ * @version 1.0.1
  */
 
 /* ADD BACKGROUND TO CHAT */
@@ -22,7 +22,7 @@ main[class*="chatContent"]::before {
 }
 
 /* RESTRICT CHAT MESSAGE WIDTH */
-ol[class*="scrollerInner__37fee"] {
+ol[class*="scrollerInner"] {
   margin-left: auto;
   margin-right: auto;
   max-width: 40rem;
