@@ -119,6 +119,9 @@ If you want to change the filters applied to the background, set them like this:
 * Remove Help icon in the top bar.<br/>
   Cool people don't need help. 😎
 
+* Align profile container and chat container<br/>
+  The thing from the March 2025 UI update.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 

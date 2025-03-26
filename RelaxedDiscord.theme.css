@@ -4,7 +4,7 @@
  * @authorLink https://github.com/yuri-becker
  * @description A few adjustments to make Discord less cluttered.
  * @source https://github.com/yuri-becker/relaxed-discord
- * @version 1.0.1
+ * @version 1.1.0
  */
 
 /* ADD BACKGROUND TO CHAT */
@@ -83,4 +83,38 @@ div[class*="nowPlayingColumn"] div[class*="itemCard"] {
 
 div[class*="nowPlayingColumn"] div[class*="itemCard"]:last-of-type {
   margin-bottom: 0;
+}
+
+/* Remove backgrounds in activity panel */
+
+div[class*="members"]>div[role="list"]>div>div[role="listitem"]>div[class*="container"] {
+  background: none;
+  border: 0;
+}
+
+
+/* Vertically align chat box with profile panel */
+form[class*="formWithLoadedChatInput"] {
+  position: relative;
+  padding-top: 1.5rem;
+}
+
+form[class*="formWithLoadedChatInput"]>div[class*="typing"] {
+  position: absolute;
+  top: 0;
+  padding-left: var(--space-xs);
+}
+
+form[class*="formWithLoadedChatInput"]>div[class*="channelBottomBarArea"]>div[class*="channelTextArea"] {
+  margin-bottom: var(--space-8);
+}
+
+form[class*="formWithLoadedChatInput"]>div[class*="channelBottomBarArea"]>div[class*="channelTextArea"]:not(:focus-within) {
+  border-color: transparent;
+}
+
+div[class*="sidebar"]>section[class*="panels"]>div[class*="container"] {
+  --height: 3.25rem;
+  min-height: var(--height);
+  height: var(--height);
 }
